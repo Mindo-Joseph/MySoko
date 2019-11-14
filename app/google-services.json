@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "972089123459",
+    "firebase_url": "https://mysoko-5089e.firebaseio.com",
+    "project_id": "mysoko-5089e",
+    "storage_bucket": "mysoko-5089e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972089123459:android:ab274a877417d63634b1b6",
+        "android_client_info": {
+          "package_name": "com.example.mysoko"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972089123459-ihj24ipt591696i5eeka73ruir289adr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mysoko",
+            "certificate_hash": "40d97dd7652cb6ce70b47699eaf3368cfc6a77c2"
+          }
+        },
+        {
+          "client_id": "972089123459-ebq38pabhmgcen21bmrh45kqll3pjk5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZsCmPEBW2jVI6dmdiaye_1seWzc-Fudc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972089123459-ebq38pabhmgcen21bmrh45kqll3pjk5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
