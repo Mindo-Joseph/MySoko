@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.mysoko.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_place_ad"
+        android:name="com.example.mysoko.ui.placeAd.PlaceAdFragment"
+        android:label="@string/menu_place_ad"
+        tools:layout="@layout/fragment_place_ad" />
+
+    <fragment
+        android:id="@+id/nav_search_service"
+        android:name="com.example.mysoko.ui.searchservice.SearchServiceFragment"
+        android:label="@string/menu_search_service"
+        tools:layout="@layout/fragment_search_service" />
+
+
+    <fragment
+        android:id="@+id/nav_log_out"
+        android:name="com.example.mysoko.ui.tools.ToolsFragment"
+        android:label="@string/menu_log_out"
+        tools:layout="@layout/fragment_log_out" />
+
+
+</navigation>

@@ -16,6 +16,15 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
+        createtext.setOnClickListener {
+            val intent = Intent(this,SignUp::class.java)
+            startActivity(intent)
+        }
+
+
+
+
+
         loginbtn.setOnClickListener {
             val email = email.text.toString()
             val password = password.text.toString()
