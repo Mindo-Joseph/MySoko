@@ -3,32 +3,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/navigation_home"
+    tools:ignore="UnusedNavigation">
 
     <fragment
-        android:id="@+id/nav_home"
+        android:id="@+id/navigation_home"
         android:name="com.example.mysoko.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_place_ad"
-        android:name="com.example.mysoko.ui.placeAd.PlaceAdFragment"
-        android:label="@string/menu_place_ad"
-        tools:layout="@layout/fragment_place_ad" />
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.mysoko.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
 
     <fragment
-        android:id="@+id/nav_search_service"
-        android:name="com.example.mysoko.ui.searchservice.SearchServiceFragment"
-        android:label="@string/menu_search_service"
-        tools:layout="@layout/fragment_search_service" />
-
-
-    <fragment
-        android:id="@+id/nav_log_out"
-        android:name="com.example.mysoko.ui.tools.ToolsFragment"
-        android:label="@string/menu_log_out"
-        tools:layout="@layout/fragment_log_out" />
-
-
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.mysoko.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
 </navigation>
