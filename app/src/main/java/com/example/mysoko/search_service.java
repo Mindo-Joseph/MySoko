@@ -24,11 +24,13 @@ public class search_service extends AppCompatActivity {
                     case R.id.navigation_home:
                         Intent nav_servies = new Intent(search_service.this, MainActivity.class);
                         startActivity(nav_servies);
+                        finish();
                         break;
 
                     case R.id.navigation_create:
                         Intent nav_create = new Intent(search_service.this, create_ad.class);
                         startActivity(nav_create);
+                        finish();
                         break;
                 }
                 return false;
