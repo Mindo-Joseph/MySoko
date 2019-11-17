@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
@@ -42,7 +43,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         holder.imageProvider.setText(UploadInfo.getService_description());
 
         //Loading image from Glide library.
-        Glide.with(context).load(UploadInfo.getImageURL()).dontAnimate().into(holder.imageView);
+        Glide.with(context).load(UploadInfo.getImageURL()).into(holder.imageView);
     }
 
     @Override
