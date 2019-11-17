@@ -1,5 +1,6 @@
 package com.example.mysoko;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -81,6 +82,12 @@ public class search_service extends AppCompatActivity {
 
         ServicesAdapter adapter = new ServicesAdapter(getApplicationContext(), arrayList1);
         recyclerView1.setAdapter(adapter);
+    }
+
+    public void onBackPressed() {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+        finish();
     }
 
 }
