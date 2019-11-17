@@ -35,8 +35,8 @@
 
                 <ImageView
                     android:id="@+id/idProductImage"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp" />
+                    android:layout_width="60dp"
+                    android:layout_height="60dp" />
             </LinearLayout>
 
             <!-- Rest of the product info and add/remove to/from cart symbols -->

@@ -9,6 +9,7 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/rellayout"
         tools:ignore="MissingConstraints">
 
         <EditText
@@ -30,12 +31,22 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/search"
             android:layout_below="@id/service_category"
             android:layout_centerHorizontal="true"
             android:text="Search" />
 
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/search"
+            android:clipToPadding="false"
+            android:scrollbars="vertical" />
+
 
     </RelativeLayout>
+
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"
