@@ -22,18 +22,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/idCardView"
-            android:layout_width="250dp"
-            android:layout_height="250dp"
-            android:layout_margin="20dp"
-            app:cardCornerRadius="4dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Hello World! This is the initial card view!!" />
-        </androidx.cardview.widget.CardView>
+            android:scrollbars="vertical" />
+
+
     </LinearLayout>
 
 
